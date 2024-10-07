@@ -1,4 +1,4 @@
-1:Dipsomania:12:2015:68
-1:Neurasthenia:10:2016:63
-2:Seventeen seconds:10:1980:35
-2:Disintegration:12:1989:71
+Psychonaut 4:Dipsomania:12:2015:68
+Psychonaut 4:Neurasthenia:10:2016:63
+The cure:Seventeen seconds:10:1980:35
+The cure:Disintegration:12:1989:71

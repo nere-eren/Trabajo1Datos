@@ -1,14 +1,13 @@
 package música;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Grupo {
 
 	//atributos
 	private String nombreGrupo;
 	private String fechaCreacion;
-	private ArrayList<Integrante> integrantes = new ArrayList<>();
-	private ArrayList<Album> albumes = new ArrayList<>();
+	private HashMap<String,Album> albumes = new HashMap<String, Album>();
 
 	
 	//getters y setters
@@ -28,28 +27,18 @@ public class Grupo {
 		this.fechaCreacion = fechaCreacion;
 	}
 
-	public ArrayList<Integrante> getIntegrantes() {
-		return integrantes;
-	}
-
-	public void setIntegrantes(ArrayList<Integrante> integrantes) {
-		this.integrantes = integrantes;
-	}
-
-	public ArrayList<Album> getAlbumes() {
+	public HashMap<String, Album> getAlbumes() {
 		return albumes;
 	}
-
-	public void setAlbumes(ArrayList<Album> albumes) {
+	
+	public void setAlbumes(HashMap<String, Album> albumes) {
 		this.albumes = albumes;
 	}
 
 	//constructor
-	public Grupo(String nombreGrupo, String fechaCreacion, ArrayList<Integrante> integrantes,
-			ArrayList<Album> albumes) {
+	public Grupo(String nombreGrupo, String fechaCreacion, HashMap<String, Album> albumes) {
 		this.nombreGrupo = nombreGrupo;
 		this.fechaCreacion = fechaCreacion;
-		this.integrantes = integrantes;
 		this.albumes = albumes;
 	}
 
