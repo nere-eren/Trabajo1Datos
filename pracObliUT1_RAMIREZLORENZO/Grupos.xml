@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Grupos>
+	<grupo>
+		<nombreGrupo>Psychonaut 4</nombreGrupo>
+		<fechaCreacion>2010</fechaCreacion>
+	</grupo>
+	<album>
+		<nombreAlbum>Dipsomania</nombreAlbum>
+		<numCanciones>12</numCanciones>
+		<fechaPublicacion>2015</fechaPublicacion>
+		<duracionMin>68</duracionMin>
+	</album>
+	<album>
+		<nombreAlbum>Neurasthenia</nombreAlbum>
+		<numCanciones>10</numCanciones>
+		<fechaPublicacion>2016</fechaPublicacion>
+		<duracionMin>63</duracionMin>
+	</album>
+	<grupo>
+		<nombreGrupo>The cure</nombreGrupo>
+		<fechaCreacion>1976</fechaCreacion>
+	</grupo>
+	<album>
+		<nombreAlbum>Seventeen seconds</nombreAlbum>
+		<numCanciones>10</numCanciones>
+		<fechaPublicacion>1980</fechaPublicacion>
+		<duracionMin>35</duracionMin>
+	</album>
+	<album>
+		<nombreAlbum>Disintegration</nombreAlbum>
+		<numCanciones>12</numCanciones>
+		<fechaPublicacion>1989</fechaPublicacion>
+		<duracionMin>71</duracionMin>
+	</album>
+</Grupos>

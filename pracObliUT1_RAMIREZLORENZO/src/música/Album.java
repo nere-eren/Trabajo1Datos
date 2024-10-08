@@ -4,12 +4,17 @@ public class Album {
 
 	// atributos
 
+	private String nombreGrupo;
 	private String nombreAlbum;
 	private int numCanciones;
-	private String fechaPublicacion;
+	private int fechaPublicacion;
 	private int duracionMin;
 	
 	// getters y setters
+	
+	public String getNombreGrupo() {
+		return nombreGrupo;
+	}
 
 	public String getNombreAlbum() {
 		return nombreAlbum;
@@ -27,11 +32,11 @@ public class Album {
 		this.numCanciones = numCanciones;
 	}
 
-	public String getFechaPublicacion() {
+	public int getFechaPublicacion() {
 		return fechaPublicacion;
 	}
 
-	public void setFechaPublicacion(String fechaPublicacion) {
+	public void setFechaPublicacion(int fechaPublicacion) {
 		this.fechaPublicacion = fechaPublicacion;
 	}
 
@@ -42,9 +47,14 @@ public class Album {
 	public void setDuracionMin(int duracionMin) {
 		this.duracionMin = duracionMin;
 	}
+	
+	public void setNombreGrupo(String nombreGrupo) {
+		this.nombreGrupo = nombreGrupo;
+	}
 
 	// constructor
-	public Album(String nombreAlbum, int numCanciones, String fechaPublicacion, int duracionMin) {
+	public Album(String nombreGrupo, String nombreAlbum, int numCanciones, int fechaPublicacion, int duracionMin) {
+		this.nombreGrupo = nombreGrupo;
 		this.nombreAlbum = nombreAlbum;
 		this.numCanciones = numCanciones;
 		this.fechaPublicacion = fechaPublicacion;

@@ -1,5 +1,6 @@
 package música;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Grupo {
@@ -42,4 +43,11 @@ public class Grupo {
 		this.albumes = albumes;
 	}
 
+	//metodos
+	public void anadirAlbumes(ArrayList<Album> albumes) {
+		for (Album album : albumes) {
+			this.albumes.put(album.getNombreGrupo(), album);			
+		}
+	}
+	
 }
