@@ -6,7 +6,7 @@ public class Grupo {
 
 	//atributos
 	private String nombreGrupo;
-	private String fechaCreacion;
+	private int fechaCreacion;
 	private HashMap<String,Album> albumes = new HashMap<String, Album>();
 
 	
@@ -19,11 +19,11 @@ public class Grupo {
 		this.nombreGrupo = nombreGrupo;
 	}
 
-	public String getFechaCreacion() {
+	public int getFechaCreacion() {
 		return fechaCreacion;
 	}
 
-	public void setFechaCreacion(String fechaCreacion) {
+	public void setFechaCreacion(int fechaCreacion) {
 		this.fechaCreacion = fechaCreacion;
 	}
 
@@ -36,7 +36,7 @@ public class Grupo {
 	}
 
 	//constructor
-	public Grupo(String nombreGrupo, String fechaCreacion, HashMap<String, Album> albumes) {
+	public Grupo(String nombreGrupo, int fechaCreacion, HashMap<String, Album> albumes) {
 		this.nombreGrupo = nombreGrupo;
 		this.fechaCreacion = fechaCreacion;
 		this.albumes = albumes;
