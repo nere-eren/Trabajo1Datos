@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import Gestores.GestorAlbumes;
 import Gestores.GestorGrupos;
+import Gestores.GestorXML;
 
 public class Principal {
 
@@ -14,7 +15,7 @@ public class Principal {
 		//leemos los grupos
 		ArrayList<Album> albumes = GestorAlbumes.leerFichTXT();
 		
-		GestorGrupos.crearXML(grupos, albumes);
+		GestorXML.crearXML(grupos, albumes);
 	}
 
 }
