@@ -46,7 +46,9 @@ public class Grupo {
 	//metodos
 	public void anadirAlbumes(ArrayList<Album> albumes) {
 		for (Album album : albumes) {
-			this.albumes.put(album.getNombreGrupo(), album);			
+			if(album.getNombreGrupo().equals(this.getNombreGrupo())) {
+				this.albumes.put(album.getNombreGrupo(), album);
+			}
 		}
 	}
 	

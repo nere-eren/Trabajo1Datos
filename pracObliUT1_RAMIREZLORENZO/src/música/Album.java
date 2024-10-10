@@ -61,5 +61,11 @@ public class Album {
 		this.duracionMin = duracionMin;
 	}
 	
+	public String toString() {
+		String str = "Nombre del grupo: " + nombreGrupo + ", nombre del album: "+ nombreAlbum
+				+ ", numero de canciones: " + numCanciones + ", fecha de publicacion: " + fechaPublicacion 
+				+ ", duracion (min): " + duracionMin;
+		return str;
+	}
 
 }
